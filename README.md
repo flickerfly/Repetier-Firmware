@@ -2,10 +2,14 @@
 
 ## Installation
 
-Please use your new at [http://www.repetier.com/firmware/v091](http://www.repetier.com/firmware/v091)
-for easy and fast configuration. You get the complete sources you need to compile back.
-This system also allows it to upload configurations created with this tool and modify
-the configuration.
+This version of Repetier Firmware is setup for a specific configuration of an Ord Bot 
+Hadron using the Panucatt X3 controller, an EZstruder and j-Head hotend. The end stops 
+are simple mechanical switches. Also, The Y endstop is on the max and the X and Z min 
+endstops are wired up to the max for cleanliness of wiring in my configuration. 
+Cooling fans are on D4.
+
+To install, you simply need to open up the src/ArduinoAVR/Repetier/Repetier.ino 
+software in your Arduino IDE and upload it to your controller.
 
 ## Version 0.91 released 2013-12-30
 
